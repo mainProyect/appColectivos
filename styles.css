@@ -1,0 +1,18 @@
+:root{
+    --grisOscuro: #454869;
+    --grisClaro:#b1b6c9;
+    --blanco:#fdfdfd;
+    --celeste:#00abe3;
+    --azul:#013274;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--grisClaro);
+    text-align: center;
+}
+.mapa-container img{
+    border: 3px solid var(--celeste);
+    border-radius: 50px;
+}
